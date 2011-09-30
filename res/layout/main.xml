@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TableLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    	<TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:text="Free Internal Storage" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=" :" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/txtFreeInt" />
+    	</TableRow>
+    	<TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:text="Available Internal Storage" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=" :" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/txtAvaInt" />
+    	</TableRow>
+    	<TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:text="Total Internal Storage" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=" :" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/txtTotalInt" />
+    	</TableRow>
+    	<TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:text="Free External Storage" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=" :" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/txtFreeExt" />
+    	</TableRow>
+    	<TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:text="Available External Storage" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=" :" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/txtAvaExt" />
+    	</TableRow>
+    	<TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:text="Total External Storage" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=" :" />
+    		<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/txtTotalExt" />
+    	</TableRow>
+    </TableLayout>
+</LinearLayout>
